@@ -1,0 +1,44 @@
+.SearchForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .SearchForm form {
+    width: 50%;
+  }
+  
+  .SearchForm form input[type="text"] {
+    width: 100%;
+  }
+  
+  .SearchForm button {
+    margin-top: 10px;
+  }
+  
+  .SearchForm .products {
+    margin-top: 30px;
+  }
+  
+  .SearchForm .product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .SearchForm .product h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .SearchForm .product p {
+    margin: 0;
+  }
+  
+  .SearchForm .product a {
+    display: block;
+    margin-top: 10px;
+  }
+  

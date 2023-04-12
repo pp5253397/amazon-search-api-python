@@ -1,0 +1,74 @@
+2023-04-13 00:21:19,102 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-13 00:21:31,374 DEBUG urllib3.connectionpool Thread-1 (process_request_thread) : Starting new HTTPS connection (1): www.amazon.in:443
+2023-04-13 00:21:31,661 DEBUG urllib3.connectionpool Thread-1 (process_request_thread) : https://www.amazon.in:443 "POST /s?k=iphone13 HTTP/1.1" 200 None
+2023-04-13 00:21:32,461 INFO backend.app Thread-1 (process_request_thread) : Response: 200
+2023-04-13 00:21:32,547 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,547 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,548 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,550 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,552 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,554 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,554 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,554 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,555 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,555 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,555 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,556 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,556 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:21:32,556 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [13/Apr/2023 00:21:32] "GET /amazon_search?keyword=iphone13 HTTP/1.1" 200 -
+2023-04-13 00:26:48,886 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-13 00:29:06,160 DEBUG urllib3.connectionpool Thread-1 (process_request_thread) : Starting new HTTPS connection (1): www.amazon.in:443
+2023-04-13 00:29:06,447 DEBUG urllib3.connectionpool Thread-1 (process_request_thread) : https://www.amazon.in:443 "POST /s?k=iphone%2014 HTTP/1.1" 200 None
+2023-04-13 00:29:07,166 INFO backend.app Thread-1 (process_request_thread) : Response: 200
+2023-04-13 00:29:07,289 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:29:07,290 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:29:07,292 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:29:07,293 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:29:07,298 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:29:07,298 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:29:07,301 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:29:07,301 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:29:07,301 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:29:07,301 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [13/Apr/2023 00:29:07] "GET /amazon_search?keyword=iphone%2014 HTTP/1.1" 200 -
+2023-04-13 00:31:21,011 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-13 00:31:28,543 DEBUG urllib3.connectionpool Thread-1 (process_request_thread) : Starting new HTTPS connection (1): www.amazon.in:443
+2023-04-13 00:31:28,821 DEBUG urllib3.connectionpool Thread-1 (process_request_thread) : https://www.amazon.in:443 "POST /s?k=iphone%2014 HTTP/1.1" 200 None
+2023-04-13 00:31:29,509 INFO backend.app Thread-1 (process_request_thread) : Response: 200
+2023-04-13 00:31:29,633 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:31:29,633 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:31:29,636 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:31:29,641 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:31:29,641 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:31:29,643 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:31:29,643 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:31:29,643 INFO backend.app Thread-1 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:31:29,644 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [13/Apr/2023 00:31:29] "GET /amazon_search?keyword=iphone%2014 HTTP/1.1" 200 -
+2023-04-13 00:34:30,571 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : Starting new HTTPS connection (1): www.amazon.in:443
+2023-04-13 00:34:30,830 DEBUG urllib3.connectionpool Thread-2 (process_request_thread) : https://www.amazon.in:443 "POST /s?k=asus%20tuf%20laptop HTTP/1.1" 200 None
+2023-04-13 00:34:31,634 INFO backend.app Thread-2 (process_request_thread) : Response: 200
+2023-04-13 00:34:31,797 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,797 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,802 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,802 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,802 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,802 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,803 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,803 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,803 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,803 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,803 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,806 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,813 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,813 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,813 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,814 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,814 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,814 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,814 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,814 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,816 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,816 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,817 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,817 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,817 INFO backend.app Thread-2 (process_request_thread) : Exception: 'NoneType' object has no attribute 'text'
+2023-04-13 00:34:31,817 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [13/Apr/2023 00:34:31] "GET /amazon_search?keyword=asus%20tuf%20laptop HTTP/1.1" 200 -
