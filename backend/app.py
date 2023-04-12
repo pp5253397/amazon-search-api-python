@@ -1,5 +1,6 @@
 from .constants import *
 from flask import Flask, request, jsonify
+from flask_cors import CORS, cross_origin
 import logging
 from bs4 import BeautifulSoup
 import requests
@@ -8,8 +9,13 @@ logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(ascti
 
 
 app = Flask(__name__)
+cors = CORS(app)
+
+app.config['CORS_HEADERS'] = 'Content-Type'
+
 
 @app.route('/amazon_search', methods=['GET'])
+@cross_origin()
 def amazon_search():
     keyword = request.args.get(KEYWORD)
     url = AMAZON_URL + keyword
